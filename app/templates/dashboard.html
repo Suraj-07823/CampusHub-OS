@@ -1,8 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head><title>Dashboard</title></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CampusHub Dashboard</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    h2 { color: #0066cc; }
+    .card { border: 1px solid #ccc; padding: 15px; margin: 10px 0; border-radius: 8px; }
+  </style>
+</head>
 <body>
-  <h2>Welcome to CampusHub Dashboard!</h2>
+
+  <h2>📅 Today's Timetable</h2>
+  <div class="card">
+    <p><strong>9:00 AM – 10:00 AM:</strong> Data Structures</p>
+    <p><strong>10:15 AM – 11:15 AM:</strong> DBMS</p>
+    <p><strong>11:30 AM – 12:30 PM:</strong> Operating Systems</p>
+  </div>
+
+  <h2>📢 Notices</h2>
+  <div class="card">
+    <p>📌 College will remain closed on Friday due to maintenance.</p>
+    <p>📌 Submit your assignment by Saturday 5 PM.</p>
+  </div>
+
+  <br>
   <a href="/logout">Logout</a>
 </body>
 </html>
