@@ -1,0 +1,16 @@
+# Flutter
+.build/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+flutter_*.png
+.idea/
+*.iml
+*.lock
+*.log
+*.tmp
+*.DS_Store
+*.flutter-plugins
+*.flutter-plugins-dependencies
+.env

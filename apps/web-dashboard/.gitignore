@@ -1,0 +1,10 @@
+# React
+node_modules/
+.env
+.build/
+dist/
+*.log
+*.tmp
+coverage/
+.cache/
+.vscode/
